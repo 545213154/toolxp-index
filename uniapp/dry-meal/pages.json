@@ -1,0 +1,87 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "./pages/restaurant/home/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#00b783"
+				
+			}
+		},
+		{
+			"path": "./pages/restaurant/classify/index",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#00b783"
+			}
+		},
+		{
+			"path": "./pages/restaurant/merchant/index",
+			"style": {
+				"navigationBarTitleText": "商家中心",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#00b783"
+			}
+		},
+		{
+			"path": "./pages/restaurant/personal/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#00b783"
+			}
+		},
+		{
+			"path": "./pages/restaurant/menu/index",
+			"style": {
+				"navigationBarTitleText": "菜单",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#00b783"
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	//底部导航栏
+	"tabBar": {
+		"color": "#971b20", // 字体颜色
+		"selectedColor": "#00b783", //选中后的颜色
+		"borderStyle": "white", // 选中的边框样式
+		"backgroundColor": "white", // 背景颜色
+		"list": [
+			//导航栏针对的页面对象，这里有个个数限制：至少2个最多5个的限制
+			{
+
+				"iconPath": "./static/logo.png", // 配置的图标
+				"pagePath": "./pages/restaurant/home/index", // 配置的页面路径
+				"text": "首页", // 配置的页面名称
+				"selectedIconPath": "./static/logo.png"// 选中之后的图标
+			},
+			{
+
+				"iconPath": "./static/logo.png", // 配置的图标
+				"pagePath": "./pages/restaurant/classify/index", // 配置的页面路径
+				"text": "分类" // 配置的页面名称
+			},
+			{
+				"iconPath": "./static/logo.png",
+				"pagePath": "./pages/restaurant/merchant/index",
+				"text": "商家"
+			},
+			{
+				"iconPath": "./static/logo.png",
+				"pagePath": "./pages/restaurant/personal/index",
+				"text": "我的"
+			}
+		]
+
+	}
+}

@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "./pages/restaurant/home/index",
+    "./pages/restaurant/classify/index",
+    "./pages/restaurant/merchant/index",
+    "./pages/restaurant/personal/index",
+    "./pages/restaurant/menu/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#971b20",
+    "selectedColor": "#00b783",
+    "borderStyle": "white",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "iconPath": "./static/logo.png",
+        "pagePath": "./pages/restaurant/home/index",
+        "text": "首页",
+        "selectedIconPath": "./static/logo.png"
+      },
+      {
+        "iconPath": "./static/logo.png",
+        "pagePath": "./pages/restaurant/classify/index",
+        "text": "分类"
+      },
+      {
+        "iconPath": "./static/logo.png",
+        "pagePath": "./pages/restaurant/merchant/index",
+        "text": "商家"
+      },
+      {
+        "iconPath": "./static/logo.png",
+        "pagePath": "./pages/restaurant/personal/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
